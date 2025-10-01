@@ -7,7 +7,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <main className="py-3 px-6 bg-[#001112] flex justify-between items-center">
+    <main className="py-3 px-6 bg-[#001112] flex justify-between items-center sticky top-0 z-50">
       {/* Logo */}
       <div>
         <img className="w-8 h-8" src={Logo} alt="Logo" />
