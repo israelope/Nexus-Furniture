@@ -4,7 +4,7 @@ import Arrival2 from '../assets/img/Arrival2.png'
 import Arrival3 from '../assets/img/Arrival3.png'
 import Arrival4 from '../assets/img/Arrival4.png'
 import Arrival5 from '../assets/img/Arrival5.png'
-import ArrowUpBlack from '../assets/icons/ArrowUpBlack.png'
+import ArrowUpBlack from '../assets/Icons/ArrowUpBlack.png'
 
 const Arrival = () => {
   return (

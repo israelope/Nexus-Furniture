@@ -28,7 +28,7 @@ const Footer = () => {
 
             {/* Social Icons */}
             <div className="flex justify-center md:justify-end gap-5 pt-10 pb-5">
-                <a href=""><img className="w-8 h-8" src={Facebook} alt="Facebook" /></a>
+                <a href=""><img className="w-8 h-8" src={Instagram} alt="Facebook" /></a>
                 <a href=""><img className="w-8 h-8" src={Facebook} alt="Facebook" /></a>
                 <a href=""><img className="w-8 h-8" src={Twitter} alt="Twitter" /></a>
             </div>

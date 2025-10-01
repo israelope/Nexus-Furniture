@@ -14,7 +14,7 @@ const Accordion = ({ question, answer, isOpen, onToggle }) => {
         className={`flex justify-between items-center w-full text-left uppercase font-bold 
         text-base sm:text-lg lg:text-xl   /* smaller + consistent */
         leading-snug py-3 px-4 transition-colors duration-300 ${
-          isOpen ? 'text-[#3B3B98]' : 'text-gray-800'
+          isOpen ? 'text-[#8DEB02]' : 'text-gray-800'
         }`}
       >
         <span className="text-left">{question}</span>

@@ -3,7 +3,7 @@ import Style1 from '../assets/img/Style1.png'
 import Style2 from '../assets/img/Style2.png'
 import Style3 from '../assets/img/Style3.png'
 import Style4 from '../assets/img/Style4.png'
-import ArrowUpWhite from '../assets/icons/ArrowUpWhite.png'
+import ArrowUpWhite from '../assets/Icons/ArrowUpWhite.png'
 
 const Style = () => {
   return (

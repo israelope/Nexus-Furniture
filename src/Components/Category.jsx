@@ -2,7 +2,7 @@ import React from 'react'
 import Chair from '../assets/img/Chair.png'
 import Table from '../assets/img/Table.png'
 import Bed from '../assets/img/Bed.png'
-import ArrowUpBlack from '../assets/icons/ArrowUpBlack.png'
+import ArrowUpBlack from '../assets/Icons/ArrowUpBlack.png'
 
 const Category = () => {
   return (
