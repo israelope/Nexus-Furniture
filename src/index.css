@@ -4,26 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Smaller, cleaner pagination bullets */
-.swiper-pagination-bullet {
-  width: 6px !important;
-  height: 6px !important;
-  background: #aaa !important;
-  opacity: 0.5 !important;
-  margin: 0 4px !important;
-  transition: all 0.3s ease;
-}
 
-.swiper-pagination-bullet-active {
-  width: 8px !important;
-  height: 8px !important;
-  background: #8DEB02 !important; /* your green highlight */
-  opacity: 1 !important;
-  transform: scale(1.2);
-}
 
-/* Position pagination neatly below slider */
-.swiper-pagination {
-  bottom: -10px !important; /* adjust spacing */
-  text-align: center !important;
-}
+

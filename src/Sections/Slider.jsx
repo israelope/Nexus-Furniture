@@ -1,8 +1,4 @@
-import React from 'react'
-import Slider1 from '../assets/img/Slider1.png'
-import Slider2 from '../assets/img/Slider2.png'
-import Slider3 from '../assets/img/Slider3.png'
-import Slider4 from '../assets/img/Slider4.png'
+
 import ArrowRight from '../assets/Icons/ArrowRight.png'
 import ProductSlider from "../Components/ProductSlider";
 
