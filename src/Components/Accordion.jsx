@@ -8,18 +8,19 @@ const Accordion = ({ question, answer, isOpen, onToggle }) => {
       {/* Accordion Header */}
       <button
         onClick={onToggle}
-        className={`flex justify-between items-center w-full text-left uppercase font-bold 
+        className={`flex justify-between items-start w-full text-left uppercase font-bold 
         text-base sm:text-lg lg:text-xl
         leading-snug py-3 px-4 transition-colors duration-300 ${
           isOpen ? "text-[#8DEB02]" : "text-gray-800"
         }`}
       >
-        <span className="text-left">{question}</span>
+        {/* Question text with flex-1 to take available space */}
+        <span className="text-left flex-1 pr-4">{question}</span>
 
-        {/* Rotating Plus -> Minus */}
+        {/* SVG icon - now properly aligned with first line */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`w-5 h-5 transition-transform duration-300 ease-in-out ${
+          className={`w-5 h-5 flex-shrink-0 mt-1 transition-transform duration-300 ease-in-out ${
             isOpen ? "rotate-45" : "rotate-0"
           }`}
           fill="none"
