@@ -28,13 +28,18 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Button */}
-      <button 
-        className="lg:hidden text-white" 
-        onClick={() => setOpen(!open)}
-      >
-        {open ? <X size={28}/> : <Menu size={28}/> }
-      </button>
+      {/* Mobile Menu Button + Basket */}
+      <div className="flex items-center gap-5 lg:hidden">
+        {/* Basket for mobile */}
+        <img className="w-7 h-7" src={Basket} alt="Basket" />
+        {/* Hamburger */}
+        <button 
+          className="text-white" 
+          onClick={() => setOpen(!open)}
+        >
+          {open ? <X size={28}/> : <Menu size={28}/> }
+        </button>
+      </div>
 
       {/* Mobile Dropdown Menu */}
       {open && (
@@ -45,7 +50,6 @@ const Navbar = () => {
           <a href="">Bed</a>
           <a href="">Chair</a>
           <a href="">Login</a>
-          <img className="w-7 h-7" src={Basket} alt="Basket" />
         </div>
       )}
     </main>

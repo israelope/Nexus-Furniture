@@ -13,15 +13,16 @@ const Hero = () => {
       <div className="px-6 md:px-12 lg:px-20 py-16 lg:py-28 max-w-2xl">
         <h1 className="text-3xl md:text-4xl lg:text-[3em] text-white font-normal font-serif leading-snug">
           Make your Interior more
-          <span className="italic font-light"> Minimalist</span> and
+          <span className="italic font-light"> Minimalist</span> and{" "} 
           <span className="italic font-light"> Modern</span>
         </h1>
 
         <h2 className="text-lg md:text-xl lg:text-[1.5em] text-white font-light pt-4 pb-6">
-          Transform Your Space: Embrace Minimalism and
-          <br className="hidden md:block" />
-          Modern Elegance
-        </h2>
+  Transform Your Space: Embrace Minimalism and{" "}
+  <br className="hidden md:block" />
+  Modern Elegance
+</h2>
+
 
         <button className="bg-[#8DEB02] cursor-pointer py-3 px-6 rounded-xl border font-semibold text-lg md:text-xl">
           View collection
