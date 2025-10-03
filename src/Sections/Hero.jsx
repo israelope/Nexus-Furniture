@@ -20,7 +20,7 @@ const Hero = () => {
         <h2 className="text-lg md:text-xl lg:text-[1.5em] text-white font-light pt-4 pb-6">
           Transform Your Space: Embrace Minimalism and
           <br className="hidden md:block" />
-          Modern Elegance
+           Modern Elegance
         </h2>
 
         <button className="bg-[#8DEB02] cursor-pointer py-3 px-6 rounded-xl border font-semibold text-lg md:text-xl">
