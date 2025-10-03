@@ -18,7 +18,7 @@ const Hero = () => {
         </h1>
 
         <h2 className="text-lg md:text-xl lg:text-[1.5em] text-white font-light pt-4 pb-6">
-          Transform Your Space: Embrace Minimalism and
+          Transform Your Space: Embrace Minimalism and 
           <br className="hidden md:block" />
            Modern Elegance
         </h2>
