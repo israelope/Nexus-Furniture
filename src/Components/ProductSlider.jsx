@@ -69,7 +69,7 @@ const ProductSlider = () => {
           1280: { slidesPerView: 4 },
         }}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 2500 }}
         loop={true}
         onInit={(swiper) => {
           // Link refs AFTER swiper is initialized

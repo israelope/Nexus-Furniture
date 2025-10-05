@@ -95,7 +95,7 @@ const Arrival = () => {
           </div>
         </div>
         <div className="relative bg-[#000f10] w-full md:w-3/9 h-[200px] md:h-full rounded-xl flex flex-col justify-start p-6">
-          <h1 className="text-white font-medium text-sm md:text-lg leading-relaxed">
+          <h1 className="text-white font-medium text-sm md:text-xl">
             Step into style with our latest arrivals! Our newest collection
             boasts a stunning array of furniture and décor pieces designed to
             captivate and inspire. From statement making sofas to eye-catching
